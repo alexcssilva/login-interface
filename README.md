@@ -42,15 +42,7 @@ Neste projeto, verificaremos se você é capaz de:
 
 <br /></details>
 
-<details><summary><strong>🗓 Data de Entrega</strong></summary><br />
 
-- Este projeto é individual;
-
-- Será 1 dia de projeto;
-
-- Data para entrega final do projeto: `dd/mm/yyyy - 14:00h`.
-
-<br /></details>
 
 ## Orientações
 
@@ -58,11 +50,11 @@ Neste projeto, verificaremos se você é capaz de:
 
 #### 1. Clone o repositório
 
-- Use o comando: `git clone git@github.com:tryber/android-0x-projeto-login-social.git`
+- Use o comando: `git clone git@github.com:tryber/android-001-projeto-login-social.git`
 
 - Entre na pasta do repositório que você acabou de clonar:
 
-    - `cd android-0x-projeto-login-social`
+    - `cd android-001-projeto-login-social`
 
 #### 2. Instale as dependências
 
@@ -98,7 +90,7 @@ Neste projeto, verificaremos se você é capaz de:
 
 #### 5. Crie um novo `Pull Request` _(PR)_
 
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/android-0x-projeto-login-social/pulls)
+- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/android-001-projeto-login-social/pulls)
 
 - Clique no botão verde _"New pull request"_
 
@@ -112,7 +104,7 @@ Neste projeto, verificaremos se você é capaz de:
 
 - Adicione uma descrição para o _Pull Request_, um título nítido que o identifique, e clique no botão verde _"Create pull request"_
 
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/android-0x-projeto-login-social/pulls) e confira se o seu _Pull Request_ está criado
+- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/android-001-projeto-login-social/pulls) e confira se o seu _Pull Request_ está criado
 
 <br /></details>
 
@@ -750,7 +742,7 @@ Como estamos desenvolvendo a tela de Login de forma isolada, precisamos apresent
 Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário.
 **Leva menos de 3 minutos!**
 
-[Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH)
+[Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH1&template=betrybe/android-0x-projeto-login-social)
 
 <br /></details>
 

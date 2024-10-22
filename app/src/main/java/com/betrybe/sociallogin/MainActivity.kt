@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
+import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout
 
 class MainActivity : AppCompatActivity() {
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         loginButton.setOnClickListener {
             validateEmail()
             validatePassword()
+            isSuccessLogin()
             }
         }
 
@@ -56,6 +58,13 @@ class MainActivity : AppCompatActivity() {
         } else {
             passwordInput.error = ""
         }
+    }
+
+    private fun isSuccessLogin() {
+        Snackbar.make(
+            findViewById(android.R.id.content),
+            R.string.login_succeeded, Snackbar.LENGTH_SHORT
+        ).show()
     }
 }
 

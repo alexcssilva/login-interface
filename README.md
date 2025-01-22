@@ -9,8 +9,6 @@ Desenvolvi uma tela de login completa para rede social usando Android nativo e K
   <a href="https://www.figma.com/design/tHp7sErHIOYw58umHoaEqU/Login-Easy?node-id=0-1&t=trIs5AJ1n09QJjXB-1"><img src="./assets/projeto-login-easy.png" alt="tela-login-easy"/></a>
 </p>
 
-![Demo Login](.)
-
 ## O que ela faz?
 A tela conta com todas as funcionalidades essenciais para um sistema de login:
 - Validação em tempo real do formato do email

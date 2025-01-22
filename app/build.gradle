@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.betrybe.sociallogin'
+    namespace 'com.alexsilva.sociallogin'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.betrybe.sociallogin"
+        applicationId "com.alexsilva.sociallogin"
         minSdk 24
         targetSdk 33
         versionCode 1

@@ -1,4 +1,4 @@
-package com.betrybe.sociallogin
+package com.alexsilva.sociallogin
 
 import android.view.View
 import android.widget.ImageView

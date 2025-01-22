@@ -1,4 +1,4 @@
-package com.betrybe.sociallogin
+package com.alexsilva.sociallogin
 
 import android.content.Context
 import android.text.InputType
@@ -156,7 +156,7 @@ class MainActivityTest {
             .check(matches(isDisplayed()))
 
         onView(withHint("Email"))
-            .perform(clearText(), typeText("teste@betrybe.com"))
+            .perform(clearText(), typeText("teste@teste.com"))
 
         closeSoftKeyboard()
 
@@ -170,7 +170,7 @@ class MainActivityTest {
     @Test
     fun test_req_9_implemente_a_validacao_do_campo_de_senha() {
         onView(withHint("Email"))
-            .perform(typeText("teste@betrybe.com"))
+            .perform(typeText("teste@teste.com"))
 
         closeSoftKeyboard()
 
@@ -200,7 +200,7 @@ class MainActivityTest {
     @Test
     fun test_req_10_implemente_uma_mensagem_de_sucesso_no_login() {
         onView(withHint("Email"))
-            .perform(typeText("teste@betrybe.com"))
+            .perform(typeText("teste@teste.com"))
 
         closeSoftKeyboard()
 

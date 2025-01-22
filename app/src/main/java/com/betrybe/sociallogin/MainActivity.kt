@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.core.widget.addTextChangedListener
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout
@@ -35,7 +36,15 @@ class MainActivity : AppCompatActivity() {
     private fun viewButtonLogin() {
         val emailText = emailInput.editText?.text.toString()
         val passwordText = passwordInput.editText?.text.toString()
-        loginButton.isEnabled = emailText.isNotEmpty() && passwordText.isNotEmpty()
+        val isValid = emailText.isNotEmpty() && passwordText.isNotEmpty()
+
+        loginButton.apply {
+            isEnabled = isValid
+            if (isValid) {
+                setBackgroundColor(ContextCompat.getColor(context, R.color.primary_button_enabled))
+                setTextColor(ContextCompat.getColor(context, R.color.primary_text))
+            }
+        }
     }
     private fun isEmailInvalid(email: String): Boolean {
         val emailText = emailInput.editText?.text.toString()

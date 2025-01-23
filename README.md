@@ -27,6 +27,22 @@ Para construir essa interface, utilizei:
 - Testes automatizados com Espresso
 - Análise de código com Ktlint e Detekt
 
+## Orientações
+
+#### 1. Clone o repositório
+
+- Use o comando: `git clone https://github.com/alexcssilva/login-interface.git`
+
+#### 2. Instale as dependências
+
+- Entre no arquivo `build.gradle` localizado dentro do diretório **app**
+
+- Clique no botão `Sync Now` caso ele exista; se a opção não estiver disponível, significa que a sincronização automática já foi realizada ao abrir o Android Studio.
+
+#### 3. Testes
+
+Abra a aba `Run` e selecione o arquivo de teste: <strong>MainActivityTest</strong></summary>
+
 ## Para que serve?
 Essa tela é o ponto de entrada da rede social, onde os usuários podem:
 - Entrar em suas contas existentes
